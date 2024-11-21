@@ -21,9 +21,9 @@ display_welcome() {
   echo -e "dilarang keras untuk dikasih gratis."
   echo -e ""
   echo -e "𝗧𝗘𝗟𝗘𝗚𝗥𝗔𝗠 :"
-  echo -e "@revanbotz"
+  echo -e "@Fahrihosting"
   echo -e "𝗖𝗥𝗘𝗗𝗜𝗧𝗦 :"
-  echo -e "@revambotz"
+  echo -e "@Fahrihosting"
   sleep 4
   clear
 }
@@ -62,14 +62,14 @@ check_token() {
   echo -e "${YELLOW}MASUKAN AKSES TOKEN :${NC}"
   read -r USER_TOKEN
 
-  if [ "$USER_TOKEN" = "revan" ]; then
+  if [ "$USER_TOKEN" = "fahriofficial" ]; then
     echo -e "${GREEN}AKSES BERHASIL${NC}}"
   else
-    echo -e "${GREEN}Buy dulu Gih Ke ZeroDev${NC}"
-    echo -e "${YELLOW}TELEGRAM : @ext4you${NC}"
-    echo -e "${YELLOW}WHATSAPP : 6287767050506${NC}"
-    echo -e "${YELLOW}HARGA TOKEN : 10K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
-    echo -e "${YELLOW}©zerodeveloper${NC}"
+    echo -e "${GREEN}Buy dulu Gih Ke Fahri - OfficiaL${NC}"
+    echo -e "${YELLOW}TELEGRAM : @Fahrihosting${NC}"
+    echo -e "${YELLOW}WHATSAPP : 0895405753446${NC}"
+    echo -e "${YELLOW}HARGA TOKEN : 25K FREE UPDATE JIKA ADA TOKEN BARU${NC}"
+    echo -e "${YELLOW}©Fahrihosting${NC}"
     exit 1
   fi
   clear
@@ -452,11 +452,11 @@ while true; do
   echo -e "${RED}  ,ggggg        gggggggg.                                 ${NC}"
   echo -e "${RED} ,ggg'               'ggg.                                ${NC}"
   echo -e "${RED}',gg       ,ggg.      'ggg:                               ${NC}"
-  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer ZeroDeveloper Private   ${NC}"
+  echo -e "${RED}'ggg      ,gg'''  .    ggg       Auto Installer Fahri - OfficiaL Private   ${NC}"
   echo -e "${RED}gggg      gg     ,     ggg      ------------------------  ${NC}"
-  echo -e "${WHITE}ggg:     gg.     -   ,ggg       • WhatsApp : 6285854642521    ${NC}"
-  echo -e "${WHITE} ggg:     ggg._    _,ggg        • Credit  : RevanBotz ${NC}"
-  echo -e "${WHITE} ggg.    '.'''ggggggp           • Support by Revan Botz  ${NC}"
+  echo -e "${WHITE}ggg:     gg.     -   ,ggg       • WhatsApp : 0895405753446    ${NC}"
+  echo -e "${WHITE} ggg:     ggg._    _,ggg        • Credit  : Fahri - OfficiaL ${NC}"
+  echo -e "${WHITE} ggg.    '.'''ggggggp           • Support by Fahri - OfficiaL${NC}"
   echo -e "${WHITE}  'ggg    '-.__                                           ${NC}"
   echo -e "${WHITE}    ggg                                                   ${NC}"
   echo -e "${WHITE}      ggg                                                 ${NC}"
