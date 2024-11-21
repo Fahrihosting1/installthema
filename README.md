@@ -1,7 +1,7 @@
 # Theme
 MAU BELI TOKEN NYA??
->> t.me/ext4you <<
+>> t.me/Fahrioffic <<
 
 Comand Run Install Thema
 
-bash <(curl https://raw.githubusercontent.com/NeroSc-120/zeronex/main/install.sh)
+bash <(curl https://raw.githubusercontent.com/Fahrihsoting1/installpanel/main/install.sh)
