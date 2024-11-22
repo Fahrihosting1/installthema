@@ -439,58 +439,6 @@ EOF
   
   exit 0
 }
-# Install theme
-install_theme() {
-  while true; do
-    echo -e "                                                       "
-    echo -e "${BLUE} =============================================== ${NC}"
-    echo -e "${BLUE}            APAKAH INGIN MELANJUTKAN             ${NC}"
-    echo -e "${BLUE} =============================================== ${NC}"
-    echo -e "                                                       "
-    echo -e "Ingin melanjutkan ke proses penginstalan? (y/n)"
-    read -r INSTAL_THOMZ
-    case "$INSTAL_THOMZ" in
-      y) 
-     echo -e "                                                       "
-  echo -e "${RED} =============================================== ${NC}"
-  echo -e "${RED}              MASUKAN SUBDOMAIN KAMU             ${NC}"
-  echo -e "${RED}             (panel.thomvelz.tamvan)             ${NC}"
-  echo -e "${RED}                    ©Thomvelz                    ${NC}"
-  echo -e "${RED} =============================================== ${NC}"
-read Domain
-bash <(curl -s https://raw.githubusercontent.com/Fahrihosting1/installthema/main/installer.sh) $Domain true admin@gmail.com thomz ganteng admin thomz true
-  echo -e "                                                       "
-  echo -e "${GREEN} =============================================== ${NC}"
-  echo -e "${GREEN}                   INSTALL SUCCESS               ${NC}"
-  echo -e "${GREEN} =============================================== ${NC}"
-  echo -e ""
-  sleep 2
-    break
-        ;;
-      Y) 
-     echo -e "                                                       "
-  echo -e "${RED} =============================================== ${NC}"
-  echo -e "${RED}              MASUKAN SUBDOMAIN KAMU             ${NC}"
-  echo -e "${RED}             (panel.thomvelz.tamvan)             ${NC}"
-  echo -e "${RED}                    ©Thomvelz                    ${NC}"
-  echo -e "${RED} =============================================== ${NC}"
-    read Domain
-    
-  echo -e "                                                       "
-  echo -e "${GREEN} =============================================== ${NC}"
-  echo -e "${GREEN}                   INSTALL SUCCESS               ${NC}"
-  echo -e "${GREEN} =============================================== ${NC}"
-  echo -e ""
-  sleep 2
-    break
-        ;;
-      n)
-        return
-        ;;
-      *)
-        echo -e "${RED}Pilihan tidak valid, silahkan coba lagi.${NC}"
-        ;;
-          }
 # Main script
 display_welcome
 install_jq
