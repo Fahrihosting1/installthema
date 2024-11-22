@@ -473,7 +473,6 @@ while true; do
   echo "6. Stellar Theme"
   echo "7. Hack Back Panel"
   echo "8. Ubah Pw Vps"
-  echo "9. Auto Install"
   echo "x. Exit"
   echo -e "Masukkan pilihan 1/2/x:"
   read -r MENU_CHOICE
@@ -503,9 +502,6 @@ while true; do
       ;;
       8)
       ubahpw_vps
-      ;;
-      9)
-      install_theme
       ;;
     x)
       echo "Keluar dari skrip."
